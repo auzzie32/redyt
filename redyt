@@ -67,7 +67,7 @@ wget -P "$cachedir" $imgs
 $notifier  "Redyt: 👍 Download Finished, Enjoy! 😊"
 
 # Display the images
-sxiv -a "$cachedir/*.png" "$cachedir/*.jpg"
+sxiv -at "$cachedir"
 
 # Once finished, remove all of the cached images
 rm "$cachedir"/*
